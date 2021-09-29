@@ -107,14 +107,3 @@ export const Link = (props: Partial<LinkProps>) => {
     );
 };
 
-Link.craft = {
-    displayName: 'Link',
-    elementName: 'link',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: LinkSettings,
-    },
-};

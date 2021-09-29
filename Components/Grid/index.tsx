@@ -102,14 +102,4 @@ export const Grid = (props: Partial<GridProps>) => {
     );
 };
 
-Grid.craft = {
-    displayName: 'Grid',
-    elementName: 'grid',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: GridSettings,
-    },
-};
+

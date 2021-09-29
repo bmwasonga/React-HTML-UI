@@ -104,14 +104,3 @@ export const Iframe = (props: Partial<IframeProps>) => {
     );
 };
 
-Iframe.craft = {
-    displayName: 'Iframe',
-    elementName: 'iframe',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: IframeSettings,
-    },
-};

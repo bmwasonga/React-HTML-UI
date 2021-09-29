@@ -104,14 +104,4 @@ export const Section = (props: Partial<SectionProps>) => {
     );
 };
 
-Section.craft = {
-    displayName: 'Section',
-    elementName: 'section',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: SectionSettings,
-    },
-};
+

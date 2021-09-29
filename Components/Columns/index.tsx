@@ -99,14 +99,4 @@ export const Columns = (props: Partial<ColumnsProps>) => {
     );
 };
 
-Columns.craft = {
-    displayName: 'Columns',
-    elementName: 'columns',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: ColumnsSettings,
-    },
-};
+

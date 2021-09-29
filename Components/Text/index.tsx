@@ -103,14 +103,3 @@ export const Text = (props: Partial<TextProps>) => {
     );
 };
 
-Text.craft = {
-    displayName: 'Text',
-    elementName: 'text',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: TextSettings,
-    },
-};

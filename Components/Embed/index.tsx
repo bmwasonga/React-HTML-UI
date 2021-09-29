@@ -102,14 +102,4 @@ export const Embed = (props: Partial<EmbedProps>) => {
     );
 };
 
-Embed.craft = {
-    displayName: 'Embed',
-    elementName: 'embed',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: EmbedSettings,
-    },
-};
+

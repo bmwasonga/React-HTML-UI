@@ -104,14 +104,4 @@ export const Paragraph = (props: Partial<ParagraphProps>) => {
     );
 };
 
-Paragraph.craft = {
-    displayName: 'Paragraph',
-    elementName: 'paragraph',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: ParagraphSettings,
-    },
-};
+

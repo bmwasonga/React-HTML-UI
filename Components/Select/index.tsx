@@ -103,14 +103,4 @@ export const Select = (props: Partial<SelectProps>) => {
     );
 };
 
-Select.craft = {
-    displayName: 'Select',
-    elementName: 'select',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: SelectSettings,
-    },
-};
+

@@ -93,14 +93,3 @@ export const Button = (props: Partial<ButtonProps>) => {
     );
 };
 
-Button.craft = {
-    displayName: 'Button',
-    elementName: 'button',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: ButtonSettings,
-    },
-};

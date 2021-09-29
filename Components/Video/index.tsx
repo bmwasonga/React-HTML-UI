@@ -101,15 +101,3 @@ export const Video = (props: Partial<VideoProps>) => {
         </div>
     );
 };
-
-Video.craft = {
-    displayName: 'Video',
-    elementName: 'video',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: VideoSettings,
-    },
-};

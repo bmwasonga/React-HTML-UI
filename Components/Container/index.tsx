@@ -104,14 +104,3 @@ export const Container = (props: Partial<ContainerProps>) => {
     );
 };
 
-Container.craft = {
-    displayName: 'Container',
-    elementName: 'container',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: ContainerSettings,
-    },
-};

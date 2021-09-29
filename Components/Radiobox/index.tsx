@@ -105,14 +105,3 @@ export const Radiobox = (props: Partial<RadioboxProps>) => {
     );
 };
 
-Radiobox.craft = {
-    displayName: 'Radiobox',
-    elementName: 'radiobox',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: RadioboxSettings,
-    },
-};

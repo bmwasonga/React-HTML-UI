@@ -104,14 +104,3 @@ export const Heading = (props: Partial<HeadingProps>) => {
     );
 };
 
-Heading.craft = {
-    displayName: 'Heading',
-    elementName: 'heading',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: HeadingSettings,
-    },
-};

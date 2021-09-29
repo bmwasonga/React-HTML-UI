@@ -103,14 +103,3 @@ export const Audio = (props: Partial<AudioProps>) => {
     );
 };
 
-Audio.craft = {
-    displayName: 'Audio',
-    elementName: 'audio',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: AudioSettings,
-    },
-};

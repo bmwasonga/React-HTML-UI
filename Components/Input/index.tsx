@@ -106,14 +106,3 @@ export const Input = (props: Partial<InputProps>) => {
     );
 };
 
-Input.craft = {
-    displayName: 'Input',
-    elementName: 'input',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: InputSettings,
-    },
-};

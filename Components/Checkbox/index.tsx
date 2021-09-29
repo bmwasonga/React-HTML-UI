@@ -104,14 +104,3 @@ export const Checkbox = (props: Partial<CheckboxProps>) => {
     );
 };
 
-Checkbox.craft = {
-    displayName: 'Checkbox',
-    elementName: 'checkbox',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: CheckboxSettings,
-    },
-};

@@ -103,15 +103,3 @@ export const Map = (props: Partial<MapProps>) => {
         </div>
     );
 };
-
-Map.craft = {
-    displayName: 'Map',
-    elementName: 'map',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: MapSettings,
-    },
-};

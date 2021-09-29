@@ -104,14 +104,3 @@ export const Image = (props: Partial<ImageProps>) => {
     );
 };
 
-Image.craft = {
-    displayName: 'Image',
-    elementName: 'image',
-    props: defaultProps,
-    rules: {
-        canDrag: (self: Node, helper) => true
-    },
-    related: {
-        toolbar: ImageSettings,
-    },
-};
