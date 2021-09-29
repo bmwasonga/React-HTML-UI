@@ -38,7 +38,7 @@ const defaultProps = {
     display: 'block',
     overflow: 'auto',
     position: 'static' as 'static',
-    border:'none'
+    border: 'none'
 };
 
 export const Div = (props: Partial<DivProps>) => {
@@ -47,7 +47,7 @@ export const Div = (props: Partial<DivProps>) => {
         ...props,
     };
 
-    
+
     const {
         flexDirection,
         alignItems,
@@ -73,7 +73,7 @@ export const Div = (props: Partial<DivProps>) => {
                 overflow,
                 background: `rgba(${Object.values(background)})`,
                 color: `rgba(${Object.values(color)})`,
-               padding, margin, boxShadow:
+                padding, margin, boxShadow:
                     shadow === 0
                         ? 'none'
                         : `0px 3px 100px ${shadow}px rgba(0, 0, 0, 0.13)`,
@@ -83,7 +83,7 @@ export const Div = (props: Partial<DivProps>) => {
                 border
             }}
         >
-            
+
             {children}
         </div>
     );
